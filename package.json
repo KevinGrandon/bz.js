@@ -1,8 +1,8 @@
 {
-  "name": "bz",
-  "description": "Bugzilla REST API wrapper",
-  "version": "1.0.0-alpha.5",
-  "author": "Heather Arthur <fayearthur@gmail.com>",
+  "name": "kg-bz",
+  "description": "A fork of the Bugzilla REST API wrapper",
+  "version": "1.0.1",
+  "author": "Kevin Grandon <kevingrandon@yahoo.com>",
   "keywords": [
     "bugzilla"
   ],
