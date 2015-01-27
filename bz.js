@@ -190,6 +190,16 @@ BugzillaClient.prototype = {
     );
   },
 
+  /**
+   * Returns history for a given flag.
+   * @see https://wiki.mozilla.org/BMO/REST/review#flag_activity
+   * @param {Integer} id The flag id.
+   * @param {Function} callback
+   */
+  flagActivity: function(id, callback) {
+    this.APIRequest('/review/flag_activity/' + id, 'GET', callback);
+  },
+
   createAttachment : function(id, attachment, callback) {
     this.APIRequest(
       '/bug/' + id + '/attachment',
